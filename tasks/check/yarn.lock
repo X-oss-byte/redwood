@@ -82,7 +82,7 @@ __metadata:
   dependencies:
     "@actions/core": 1.10.0
     "@actions/exec": 1.1.1
-    sort-package-json: 2.5.0
+    sort-package-json: 2.10.1
   languageName: unknown
   linkType: soft
 
@@ -267,6 +267,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:^7.6.0":
+  version: 7.6.3
+  resolution: "semver@npm:7.6.3"
+  bin:
+    semver: bin/semver.js
+  checksum: 8/4110ec5d015c9438f322257b1c51fe30276e5f766a3f64c09edd1d7ea7118ecbc3f379f3b69032bacf13116dc7abc4ad8ce0d7e2bd642e26b0d271b56b61a7d8
+  languageName: node
+  linkType: hard
+
 "slash@npm:^4.0.0":
   version: 4.0.0
   resolution: "slash@npm:4.0.0"
@@ -281,9 +290,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:2.5.0":
-  version: 2.5.0
-  resolution: "sort-package-json@npm:2.5.0"
+"sort-package-json@npm:2.10.1":
+  version: 2.10.1
+  resolution: "sort-package-json@npm:2.10.1"
   dependencies:
     detect-indent: ^7.0.1
     detect-newline: ^4.0.0
@@ -291,10 +300,11 @@ __metadata:
     git-hooks-list: ^3.0.0
     globby: ^13.1.2
     is-plain-obj: ^4.1.0
+    semver: ^7.6.0
     sort-object-keys: ^1.1.3
   bin:
     sort-package-json: cli.js
-  checksum: e132fa36a715b2ec886b704fd24ef68552b8a5e0bd74205a37a9628e311dbc0039d8365d357c11b9dfc9f53058895f625bdaeda5c656efbef88d4bf4810b54f9
+  checksum: 8/861d8161565fba322414d70b6be10fb331680549b73399778965be628783833c85c4e02929bcea5a2d96994884b0327dfe2f7c7a79409c901d2582b703f5333d
   languageName: node
   linkType: hard
 
